@@ -10,7 +10,9 @@ Add a SalesFeed tracking code to your WordPress site. You need a SalesFeed accou
 
 == Description ==
 
-
+A very easy WordPress plugin wich adds a SalesFeed (http://salesfeed.nl/) tracking 
+code to your WordPress. The tracking code can be configured on the SalesFeed 
+settings page under your WordPress admin settings page.
 
 
 == Installation ==
@@ -26,7 +28,7 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 == Screenshots ==
 
-
+1.	SalesFeed settings page.
 
 
 == Changelog ==
