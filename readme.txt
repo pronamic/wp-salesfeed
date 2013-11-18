@@ -28,7 +28,7 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 == Screenshots ==
 
-
+1.	SalesFeed settings page.
 
 
 == Changelog ==
