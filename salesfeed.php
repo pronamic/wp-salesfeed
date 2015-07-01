@@ -104,16 +104,26 @@ class Pronamic_WP_SalesFeed_Plugin {
 	public function wp_footer() {
 		$id = get_option( 'salesfeed_account_id' );
 
-		if ( ! empty ( $id ) ) : ?>
-	
-			<!-- SalesFeed by Pronamic - http://www.pronamic.eu/ -->
-			<script type="text/javascript">
-				_scoopi = {aid: '<?php echo esc_js( $id ); ?>'};
-				var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//lead-analytics.nl/bootstrap.js';
-				var node = document.getElementsByTagName('script')[0]; node.parentNode.insertBefore(s, node);
-			</script>
+		if ( ! empty ( $id ) ) {
 
-		<?php endif;
+			?>
+
+<!-- SalesFeed by Pronamic - http://www.pronamic.eu/ -->
+<script type='text/javascript'>
+(function(d,t) {
+_scoopi = {'onload': function() {
+this.trkDocumentLoad();
+}};
+var s=d.getElementsByTagName(t)[0];
+var js=d.createElement(t); js.async=1;
+js.src='//api.salesfeed.com/v3/bootstrap.js?aid=<?php echo esc_js( $id ); ?>';
+s.parentNode.insertBefore(js,s);
+})(document,'script');
+</script>
+
+			<?php
+
+		}
 	}
 }
 
