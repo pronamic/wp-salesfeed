@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<ruleset name="SalesFeed">
+	<rule ref="WordPress">
+		<exclude name="Squiz.Commenting" />
+	</rule>
+</ruleset>
