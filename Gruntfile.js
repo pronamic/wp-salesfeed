@@ -11,7 +11,11 @@ module.exports = function( grunt ) {
 					'-lf': null
 				}
 			},
-			all: [ '**/*.php' ]
+			all: [
+				'**/*.php',
+				'!deploy/**',
+				'!node_modules/**'
+			]
 		},
 
 		// PHP Code Sniffer
