@@ -51,7 +51,7 @@ class Pronamic_WP_SalesFeed_Plugin {
 			'__return_false', // callback
 			'salesfeed' // page
 		);
-		
+
 		add_settings_field(
 			'salesfeed_account_id', // id
 			__( 'SalesFeed Account ID', 'salesfeed' ), // title
@@ -60,7 +60,7 @@ class Pronamic_WP_SalesFeed_Plugin {
 			'salesfeed_general', // section
 			array( 'label_for' => 'salesfeed_account_id' ) // args
 		);
-		
+
 		register_setting( 'salesfeed', 'salesfeed_account_id' );
 	}
 
@@ -104,7 +104,7 @@ class Pronamic_WP_SalesFeed_Plugin {
 	public function wp_footer() {
 		$id = get_option( 'salesfeed_account_id' );
 
-		if ( ! empty ( $id ) ): ?>
+		if ( ! empty ( $id ) ) : ?>
 	
 			<!-- SalesFeed by Pronamic - http://www.pronamic.eu/ -->
 			<script type="text/javascript">
