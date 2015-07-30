@@ -104,7 +104,7 @@ class Pronamic_WP_SalesFeed_Plugin {
 	public function wp_footer() {
 		$id = get_option( 'salesfeed_account_id' );
 
-		if ( ! empty ( $id ) ) {
+		if ( ! empty( $id ) ) {
 
 			?>
 
