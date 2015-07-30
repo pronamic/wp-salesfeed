@@ -26,7 +26,7 @@
       "url": "http://www.remcotolsma.nl/"
     }
   ],
-  "license": "GPL",
+  "license": "GPL-2.0",
   "bugs": {
     "url": "https://github.com/pronamic/wp-salesfeed/issues",
     "email": "support@pronamic.nl"
@@ -34,7 +34,7 @@
   "homepage": "https://github.com/pronamic/wp-salesfeed",
   "devDependencies": {
     "grunt": "~0.4.5",
-    "grunt-aws-s3": "^0.13.1",
+    "grunt-aws-s3": "^0.14.0",
     "grunt-checktextdomain": "^1.0.0",
     "grunt-checkwpversion": "~0.3.0",
     "grunt-contrib-clean": "^0.6.0",
