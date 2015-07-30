@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: SalesFeed
-Plugin URI: http://www.pronamic.eu/wordpress-plugins/salesfeed/
+Plugin URI: http://www.pronamic.eu/plugins/salesfeed/
 Description: Add a SalesFeed tracking code to your WordPress site. You need a SalesFeed account.
 
-Version: 1.0.0
+Version: 1.1.0
 Requires at least: 3.0
 
 Author: Pronamic
@@ -51,7 +51,7 @@ class Pronamic_WP_SalesFeed_Plugin {
 			'__return_false', // callback
 			'salesfeed' // page
 		);
-		
+
 		add_settings_field(
 			'salesfeed_account_id', // id
 			__( 'SalesFeed Account ID', 'salesfeed' ), // title
@@ -60,7 +60,7 @@ class Pronamic_WP_SalesFeed_Plugin {
 			'salesfeed_general', // section
 			array( 'label_for' => 'salesfeed_account_id' ) // args
 		);
-		
+
 		register_setting( 'salesfeed', 'salesfeed_account_id' );
 	}
 
@@ -104,16 +104,26 @@ class Pronamic_WP_SalesFeed_Plugin {
 	public function wp_footer() {
 		$id = get_option( 'salesfeed_account_id' );
 
-		if ( ! empty ( $id ) ): ?>
-	
-			<!-- SalesFeed by Pronamic - http://www.pronamic.eu/ -->
-			<script type="text/javascript">
-				_scoopi = {aid: '<?php echo esc_js( $id ); ?>'};
-				var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//lead-analytics.nl/bootstrap.js';
-				var node = document.getElementsByTagName('script')[0]; node.parentNode.insertBefore(s, node);
-			</script>
+		if ( ! empty( $id ) ) {
 
-		<?php endif;
+			?>
+
+<!-- SalesFeed by Pronamic - http://www.pronamic.eu/ -->
+<script type='text/javascript'>
+(function(d,t) {
+_scoopi = {'onload': function() {
+this.trkDocumentLoad();
+}};
+var s=d.getElementsByTagName(t)[0];
+var js=d.createElement(t); js.async=1;
+js.src='//api.salesfeed.com/v3/bootstrap.js?aid=<?php echo esc_js( $id ); ?>';
+s.parentNode.insertBefore(js,s);
+})(document,'script');
+</script>
+
+			<?php
+
+		}
 	}
 }
 

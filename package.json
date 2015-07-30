@@ -1,0 +1,49 @@
+{
+  "name": "salesfeed",
+  "version": "1.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pronamic/wp-salesfeed.git"
+  },
+  "keywords": [
+    "pronamic",
+    "salesfeed",
+    "dutch",
+    "i18n",
+    "translations",
+    "nl",
+    "nl_NL"
+  ],
+  "author": {
+    "name": "Pronamic",
+    "email": "info@pronamic.nl",
+    "url": "http://www.pronamic.nl/"
+  },
+  "contributors": [
+    {
+      "name": "Remco Tolsma",
+      "email": "info@remcotolsma.nl",
+      "url": "http://www.remcotolsma.nl/"
+    }
+  ],
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/pronamic/wp-salesfeed/issues",
+    "email": "support@pronamic.nl"
+  },
+  "homepage": "https://github.com/pronamic/wp-salesfeed",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-aws-s3": "^0.14.0",
+    "grunt-checktextdomain": "^1.0.0",
+    "grunt-checkwpversion": "~0.3.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compress": "^0.13.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-git": "^0.3.5",
+    "grunt-phpcs": "^0.4.0",
+    "grunt-phplint": "0.0.5",
+    "grunt-rt-wp-deploy": "^0.1.0",
+    "grunt-wp-i18n": "~0.5.2"
+  }
+}

@@ -2,16 +2,19 @@
 # This file is distributed under the same license as the SalesFeed package.
 msgid ""
 msgstr ""
-"Project-Id-Version: SalesFeed 1.0.0\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/salesfeed\n"
-"POT-Creation-Date: 2013-10-24 07:21:51+00:00\n"
+"Project-Id-Version: SalesFeed\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/salesfeed\n"
+"POT-Creation-Date: 2015-07-01 07:54:56+00:00\n"
+"PO-Revision-Date: 2015-07-01 09:55+0100\n"
+"Last-Translator: Remco Tolsma <info@remcotolsma.nl>\n"
+"Language-Team: Pronamic <info@pronamic.nl>\n"
+"Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2013-10-24 09:22+0100\n"
-"Last-Translator: Remco Tolsma <info@remcotolsma.nl>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.7.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: salesfeed.php:50
 msgid "General"
@@ -21,15 +24,13 @@ msgstr "Algemeen"
 msgid "SalesFeed Account ID"
 msgstr "SalesFeed account ID"
 
-#. #-#-#-#-#  salesfeed.pot (SalesFeed 1.0.0)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
-#: salesfeed.php:72 salesfeed.php:73
 msgid "SalesFeed"
 msgstr "SalesFeed"
 
 #. Plugin URI of the plugin/theme
-msgid "http://www.pronamic.eu/wordpress-plugins/salesfeed/"
-msgstr "http://www.pronamic.nl/wordpress-plugins/salesfeed/"
+msgid "http://www.pronamic.eu/plugins/salesfeed/"
+msgstr "http://www.pronamic.eu/plugins/salesfeed/"
 
 #. Description of the plugin/theme
 msgid ""
