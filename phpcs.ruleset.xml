@@ -3,5 +3,6 @@
 <ruleset name="SalesFeed">
 	<rule ref="WordPress">
 		<exclude name="Squiz.Commenting" />
+		<exclude name="WordPress.Files.FileName.InvalidClassFileName" />
 	</rule>
 </ruleset>
