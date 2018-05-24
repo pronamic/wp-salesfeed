@@ -3,8 +3,8 @@ Contributors: pronamic, remcotolsma
 Tags: salesfeed, sales, feed, track, tracking, google, analytics
 Donate link: http://pronamic.eu/donate/?for=wp-plugin-salesfeed&source=wp-plugin-readme-txt
 Requires at least: 3.0
-Tested up to: 4.2.2
 Stable tag: 1.1.0
+Tested up to: 4.9.6
 
 Add a SalesFeed tracking code to your WordPress site. You need a SalesFeed account.
 
