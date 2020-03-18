@@ -55,7 +55,7 @@ class Pronamic_WP_SalesFeed_Plugin {
 		add_settings_field(
 			'salesfeed_account_id', // id
 			__( 'SalesFeed Account ID', 'salesfeed' ), // title
-			array( __CLASS__, 'input_text' ), // callback
+			array( $this, 'input_text' ), // callback
 			'salesfeed', // page
 			'salesfeed_general', // section
 			array( 'label_for' => 'salesfeed_account_id' ) // args
