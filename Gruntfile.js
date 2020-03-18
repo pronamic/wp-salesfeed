@@ -22,13 +22,14 @@ module.exports = function( grunt ) {
 		phpcs: {
 			application: {
 				src: [
-					'**/*.php',
-					'!deploy/**',
-					'!node_modules/**'
+					'admin/**/*.php',
+					'salesfeed.php',
+					'uninstall.php'
 				]
 			},
 			options: {
-				standard: 'phpcs.ruleset.xml',
+				bin: 'vendor/bin/phpcs',
+				standard: 'phpcs.xml.dist',
 				showSniffCodes: true
 			}
 		},
@@ -61,7 +62,9 @@ module.exports = function( grunt ) {
 					updatePoFiles: true,
 					exclude: [
 						'deploy/.*',
-						'node_modules/.*'
+						'node_modules/.*',
+						'vendor/.*',
+						'wordpress/.*'
 					]
 				}
 			}
@@ -94,6 +97,8 @@ module.exports = function( grunt ) {
 					'!deploy/**',
 					'!node_modules/**',
 					'!tests/**',
+					'!vendor/**',
+					'!wordpress/**',
 					'!wp-content/**'
 				],
 				expand: true

@@ -1,5 +1,11 @@
+# Composer
+/vendor/
+
 # Deploy
-/deploy
+/deploy/
 
 # Node.js
-/node_modules
+/node_modules/
+
+# WordPress
+/wordpress/
