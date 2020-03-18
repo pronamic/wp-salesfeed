@@ -62,7 +62,9 @@ module.exports = function( grunt ) {
 					updatePoFiles: true,
 					exclude: [
 						'deploy/.*',
-						'node_modules/.*'
+						'node_modules/.*',
+						'vendor/.*',
+						'wordpress/.*'
 					]
 				}
 			}
@@ -95,6 +97,8 @@ module.exports = function( grunt ) {
 					'!deploy/**',
 					'!node_modules/**',
 					'!tests/**',
+					'!vendor/**',
+					'!wordpress/**',
 					'!wp-content/**'
 				],
 				expand: true
