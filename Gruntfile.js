@@ -22,13 +22,14 @@ module.exports = function( grunt ) {
 		phpcs: {
 			application: {
 				src: [
-					'**/*.php',
-					'!deploy/**',
-					'!node_modules/**'
+					'admin/**/*.php',
+					'salesfeed.php',
+					'uninstall.php'
 				]
 			},
 			options: {
-				standard: 'phpcs.ruleset.xml',
+				bin: 'vendor/bin/phpcs',
+				standard: 'phpcs.xml.dist',
 				showSniffCodes: true
 			}
 		},
