@@ -46,7 +46,7 @@
 	"require-dev": {
 		"phpcompatibility/php-compatibility": "^9.3",
 		"phpcompatibility/phpcompatibility-wp": "^2.1",
-		"roots/wordpress": "^5.3",
+		"roots/wordpress-no-content": "^5.3",
 		"wp-cli/wp-cli-bundle": "^2.11"
 	},
 	"scripts": {
@@ -59,6 +59,7 @@
 			"vendor/bin/wp dist-archive ./build --plugin-dirname=salesfeed"
 		],
 		"dist-archive": "wp dist-archive . --plugin-dirname=salesfeed",
+		"make-pot": "vendor/bin/wp i18n make-pot . --slug=salesfeed",
 		"phpcbf": "vendor/bin/phpcbf",
 		"phpcs": "vendor/bin/phpcs -s -v",
 		"phplint": "find -L . -type f -path ./.git -prune -o -path ./deploy -prune -o -path ./node_modules -prune -o -path ./vendor -prune -o -path ./wordpress -prune -o -path ./wp-content -prune -o -name '*.php' -print0 | xargs -0 -n 1 -P 4 php -l -n"
