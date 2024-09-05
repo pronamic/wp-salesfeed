@@ -1,5 +1,7 @@
 .distignore
 
+.editorconfig
+
 .git/
 .github/
 .gitattributes
