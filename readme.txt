@@ -1,6 +1,6 @@
 === SalesFeed ===
 Contributors: pronamic, remcotolsma 
-Tags: salesfeed, sales, feed, track, tracking, google, analytics
+Tags: pronamic, salesfeed, tracking, google, analytics
 Donate link: http://pronamic.eu/donate/?for=wp-plugin-salesfeed&source=wp-plugin-readme-txt
 Requires at least: 3.0
 Tested up to: 6.6.1
