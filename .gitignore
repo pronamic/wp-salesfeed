@@ -1,8 +1,8 @@
 # Composer
 /vendor/
 
-# Deploy
-/deploy/
+# Build
+/build/
 
 # Node.js
 /node_modules/
