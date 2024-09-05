@@ -1,0 +1,28 @@
+name: Deploy readme.txt to WordPress.org
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: WordPress.org plugin directory
+      url: https://wordpress.org/plugins/salesfeed/
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github
+            .wordpress-org
+            readme.txt
+
+      - name: Deploy
+        uses: pronamic/action-wordpress-plugin-readme-update@main
+        with:
+          svn-username: pronamic
+          svn-password: ${{ secrets.SVN_PASSWORD }}
+          wp-slug: salesfeed
