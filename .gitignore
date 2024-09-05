@@ -1,14 +1,11 @@
-# Composer
-/vendor/
-
 # Build
 /build/
 
+# Composer
+/vendor/
+
 # Node.js
 /node_modules/
-
-# WordPress
-/wordpress/
 
 # Archives
 salesfeed.*.zip
