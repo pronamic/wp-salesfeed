@@ -23,11 +23,6 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 WordPress installation and then activate the Plugin from Plugins page.
 
 
-== Developers ==
-
-*	php ~/wp/svn/i18n-tools/makepot.php wp-plugin ~/wp/git/salesfeed ~/wp/git/salesfeed/languages/salesfeed.pot
-
-
 == Screenshots ==
 
 1.	SalesFeed settings page.
