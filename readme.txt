@@ -10,6 +10,8 @@ Add a SalesFeed tracking code to your WordPress site. You need a SalesFeed accou
 
 == Description ==
 
+[Pronamic](https://www.pronamic.eu/) · [GitHub](https://github.com/pronamic/wp-salesfeed)
+
 A very easy WordPress plugin wich adds a SalesFeed (http://salesfeed.nl/) tracking code to your WordPress. The tracking code can be configured on the SalesFeed settings page under your WordPress admin settings page.
 
 
