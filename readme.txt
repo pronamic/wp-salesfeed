@@ -5,6 +5,8 @@ Donate link: http://pronamic.eu/donate/?for=wp-plugin-salesfeed&source=wp-plugin
 Requires at least: 3.0
 Tested up to: 6.6.1
 Stable tag: 1.3.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Add a SalesFeed tracking code to your WordPress site. You need a SalesFeed account.
 
