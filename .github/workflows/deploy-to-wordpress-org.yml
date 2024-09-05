@@ -7,6 +7,8 @@ on:
         description: 'Tag to release to WordPress.org'
         required: true
         type: string
+  release:
+    types: [released]
 
 jobs:
   deploy:
@@ -24,5 +26,5 @@ jobs:
         with:
           svn-username: pronamic
           svn-password: ${{ secrets.SVN_PASSWORD }}
-          tag: ${{ inputs.tag }}
+          tag: ${{ inputs.tag || github.ref_name }}
           wp-slug: salesfeed
