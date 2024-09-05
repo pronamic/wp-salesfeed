@@ -19,8 +19,6 @@ jobs:
     steps:
       - name: Release
         uses: pronamic/action-wordpress-plugin-release@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           svn-username: pronamic
           svn-password: ${{ secrets.SVN_PASSWORD }}
