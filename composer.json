@@ -1,5 +1,5 @@
 {
-    "name": "pronamic/wp-pronamic-ideal",
+    "name": "pronamic/wp-salesfeed",
     "type": "wordpress-plugin",
     "description": "Add a SalesFeed tracking code to your WordPress site. You need a SalesFeed account.",
     "keywords": [
