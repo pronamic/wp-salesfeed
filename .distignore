@@ -1,0 +1,10 @@
+.distignore
+
+.git/
+.github/
+.gitattributes
+.gitignore
+
+Gruntfile.js
+
+phpcs.xml.dist
