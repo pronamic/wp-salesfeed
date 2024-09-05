@@ -1,22 +1,27 @@
 <?php
-/*
-Plugin Name: SalesFeed
-Plugin URI: https://www.pronamic.eu/plugins/salesfeed/
-Description: Add a SalesFeed tracking code to your WordPress site. You need a SalesFeed account.
-
-Version: 1.3.0
-Requires at least: 3.0
-
-Author: Pronamic
-Author URI: https://www.pronamic.eu/
-
-Text Domain: salesfeed
-Domain Path: /languages/
-
-License: GPL-2.0-or-later
-
-GitHub URI: https://github.com/pronamic/wp-salesfeed
-*/
+/**
+ * Plugin Name: SalesFeed
+ * Plugin URI: https://www.pronamic.eu/plugins/salesfeed/
+ * Description: Add a SalesFeed tracking code to your WordPress site. You need a SalesFeed account.
+ *
+ * Version: 1.3.0
+ * Requires at least: 3.0
+ *
+ * Author: Pronamic
+ * Author URI: https://www.pronamic.eu/
+ *
+ * Text Domain: salesfeed
+ * Domain Path: /languages/
+ *
+ * License: GPL-2.0-or-later
+ *
+ * GitHub URI: https://github.com/pronamic/wp-salesfeed
+ *
+ * @author    Pronamic <info@pronamic.eu>
+ * @copyright 2005-2024 Pronamic
+ * @license   GPL-3.0-or-later
+ * @package   Pronamic\SalesFeed
+ */
 
 class Pronamic_WP_SalesFeed_Plugin {
 	/**
