@@ -48,6 +48,7 @@
 		"wp-coding-standards/wpcs": "^2.2"
 	},
 	"scripts": {
+		"dist-archive": "wp dist-archive . --plugin-dirname=salesfeed",
 		"phpcbf": "vendor/bin/phpcbf",
 		"phpcs": "vendor/bin/phpcs -s -v",
 		"phplint": "find -L . -type f -path ./.git -prune -o -path ./deploy -prune -o -path ./node_modules -prune -o -path ./vendor -prune -o -path ./wordpress -prune -o -path ./wp-content -prune -o -name '*.php' -print0 | xargs -0 -n 1 -P 4 php -l -n"
