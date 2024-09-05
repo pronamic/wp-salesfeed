@@ -1,0 +1,28 @@
+name: Deploy to WordPress.org
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag to release to WordPress.org'
+        required: true
+        type: string
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: WordPress.org plugin directory
+      url: https://wordpress.org/plugins/salesfeed/
+
+    steps:
+      - name: Release
+        uses: pronamic/action-wordpress-plugin-release@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          svn-username: pronamic
+          svn-password: ${{ secrets.SVN_PASSWORD }}
+          tag: ${{ inputs.tag }}
+          wp-slug: salesfeed
