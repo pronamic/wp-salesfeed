@@ -23,6 +23,6 @@ jobs:
       - name: Deploy
         uses: pronamic/action-wordpress-org-plugin-readme-deploy@main
         with:
-          username: pronamic
-          password: ${{ secrets.SVN_PASSWORD }}
+          username: ${{ vars.WORDPRESS_ORG_PRONAMIC_USERNAME }}
+          password: ${{ secrets.WORDPRESS_ORG_PRONAMIC_PASSWORD }}
           slug: salesfeed
