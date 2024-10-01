@@ -46,11 +46,13 @@
 	"require-dev": {
 		"phpcompatibility/php-compatibility": "^9.3",
 		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"pronamic/changelog-md-to-wordpress-plugin-readme-txt": "dev-main",
 		"roots/wordpress-no-content": "^5.3",
 		"wp-cli/wp-cli-bundle": "^2.11"
 	},
 	"scripts": {
 		"build": [
+			"Pronamic\\ChangelogMdToWordPressPluginReadmeTxt\\Synchronizer::run",
 			"rm -rf ./build",
 			"mkdir ./build",
 			"rsync --recursive --verbose --exclude-from=.gitignore --exclude-from=.distignore ./ ./build/",
