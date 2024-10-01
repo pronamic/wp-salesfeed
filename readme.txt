@@ -30,7 +30,7 @@ WordPress installation and then activate the Plugin from Plugins page.
 
 == Changelog ==
 
-
+<!-- Start changelog -->
 
 ## [1.3.3] - 2024-09-05
 
