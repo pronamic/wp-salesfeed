@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 [unreleased]: https://github.com/pronamic/wp-salesfeed/compare/v1.3.3...HEAD
 
+<!-- Start changelog -->
+
 ## [1.3.3] - 2024-09-05
 
 - No significant changes.
@@ -51,3 +53,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial release.
 
 [1.0.0]: https://github.com/pronamic/wp-salesfeed/commits/v1.0.0
+
+<!-- End changelog -->
