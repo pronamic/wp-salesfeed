@@ -49,11 +49,13 @@ $changelog_content = \substr(
 
 $changelog_content_updated = \preg_replace_callback(
     '/^(#{1,6})\s/m',
-    function( $matches ) {
-        return str_repeat( '#', strlen( $matches[1] ) + 1 ) . ' ';
+    function ( $matches ) {
+        return \str_repeat( '#', \strlen( $matches[1] ) + 1 ) . ' ';
     },
     $changelog_content
 );
+
+$txt_changelog_marker_start_position += \strlen( $marker_start );
 
 $content_readme_txt_updated = \substr( $content_readme_txt, 0, $txt_changelog_marker_start_position ) . $changelog_content_updated . \substr( $content_readme_txt, $txt_changelog_marker_end_position );
 
