@@ -46,6 +46,7 @@ WordPress installation and then activate the Plugin from Plugins page.
 = 1.0.0 =
 *	Initial release
 
+<!-- End changelog -->
 
 == Pronamic plugins ==
 
