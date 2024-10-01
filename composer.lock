@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "718d1f8554bf599fe84920e76c25a08e",
+	"content-hash": "f1dda98c781bb095a26af506833d8387",
 	"packages": [
 		{
 			"name": "composer/installers",
@@ -161,16 +161,16 @@
 	"packages-dev": [
 		{
 			"name": "composer/ca-bundle",
-			"version": "1.4.3",
+			"version": "1.4.4",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/composer/ca-bundle.git",
-				"reference": "031d14d579d2fa090b8049586325faf746abd1ca"
+				"reference": "14756a2c62df6395822301372d021337ed33029a"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/composer/ca-bundle/zipball/031d14d579d2fa090b8049586325faf746abd1ca",
-				"reference": "031d14d579d2fa090b8049586325faf746abd1ca",
+				"url": "https://api.github.com/repos/composer/ca-bundle/zipball/14756a2c62df6395822301372d021337ed33029a",
+				"reference": "14756a2c62df6395822301372d021337ed33029a",
 				"shasum": ""
 			},
 			"require": {
@@ -217,7 +217,7 @@
 			"support": {
 				"irc": "irc://irc.freenode.org/composer",
 				"issues": "https://github.com/composer/ca-bundle/issues",
-				"source": "https://github.com/composer/ca-bundle/tree/1.4.3"
+				"source": "https://github.com/composer/ca-bundle/tree/1.4.4"
 			},
 			"funding": [
 				{
@@ -233,7 +233,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-07-08T15:22:14+00:00"
+			"time": "2024-09-25T07:48:01+00:00"
 		},
 		{
 			"name": "composer/composer",
@@ -476,24 +476,24 @@
 		},
 		{
 			"name": "composer/semver",
-			"version": "3.4.2",
+			"version": "3.4.3",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/composer/semver.git",
-				"reference": "c51258e759afdb17f1fd1fe83bc12baaef6309d6"
+				"reference": "4313d26ada5e0c4edfbd1dc481a92ff7bff91f12"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/composer/semver/zipball/c51258e759afdb17f1fd1fe83bc12baaef6309d6",
-				"reference": "c51258e759afdb17f1fd1fe83bc12baaef6309d6",
+				"url": "https://api.github.com/repos/composer/semver/zipball/4313d26ada5e0c4edfbd1dc481a92ff7bff91f12",
+				"reference": "4313d26ada5e0c4edfbd1dc481a92ff7bff91f12",
 				"shasum": ""
 			},
 			"require": {
 				"php": "^5.3.2 || ^7.0 || ^8.0"
 			},
 			"require-dev": {
-				"phpstan/phpstan": "^1.4",
-				"symfony/phpunit-bridge": "^4.2 || ^5"
+				"phpstan/phpstan": "^1.11",
+				"symfony/phpunit-bridge": "^3 || ^7"
 			},
 			"type": "library",
 			"extra": {
@@ -537,7 +537,7 @@
 			"support": {
 				"irc": "ircs://irc.libera.chat:6697/composer",
 				"issues": "https://github.com/composer/semver/issues",
-				"source": "https://github.com/composer/semver/tree/3.4.2"
+				"source": "https://github.com/composer/semver/tree/3.4.3"
 			},
 			"funding": [
 				{
@@ -553,7 +553,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-07-12T11:35:52+00:00"
+			"time": "2024-09-19T14:15:21+00:00"
 		},
 		{
 			"name": "composer/spdx-licenses",
@@ -1333,6 +1333,47 @@
 			"time": "2024-04-24T21:37:59+00:00"
 		},
 		{
+			"name": "pronamic/changelog-md-to-wordpress-plugin-readme-txt",
+			"version": "dev-main",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/pronamic/pronamic-changelog-md-to-wordpress-plugin-readme-txt.git",
+				"reference": "59450f997bad7ef0003f26de48a3cfb0db8b77c2"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/pronamic/pronamic-changelog-md-to-wordpress-plugin-readme-txt/zipball/59450f997bad7ef0003f26de48a3cfb0db8b77c2",
+				"reference": "59450f997bad7ef0003f26de48a3cfb0db8b77c2",
+				"shasum": ""
+			},
+			"default-branch": true,
+			"bin": [
+				"bin/pronamic-changelog-md-to-wordpress-plugin-readme-txt"
+			],
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"Pronamic\\ChangelogMdToWordPressPluginReadmeTxt\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"GPL-2.0-or-later"
+			],
+			"authors": [
+				{
+					"name": "Pronamic",
+					"email": "info@pronamic.eu"
+				}
+			],
+			"description": "Automates syncing of changelog entries from CHANGELOG.md to WordPress plugin readme.txt.",
+			"support": {
+				"issues": "https://github.com/pronamic/pronamic-changelog-md-to-wordpress-plugin-readme-txt/issues",
+				"source": "https://github.com/pronamic/pronamic-changelog-md-to-wordpress-plugin-readme-txt/tree/main"
+			},
+			"time": "2024-10-01T12:33:47+00:00"
+		},
+		{
 			"name": "psr/log",
 			"version": "1.1.4",
 			"source": {
@@ -1638,16 +1679,16 @@
 		},
 		{
 			"name": "squizlabs/php_codesniffer",
-			"version": "3.10.2",
+			"version": "3.10.3",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-				"reference": "86e5f5dd9a840c46810ebe5ff1885581c42a3017"
+				"reference": "62d32998e820bddc40f99f8251958aed187a5c9c"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/86e5f5dd9a840c46810ebe5ff1885581c42a3017",
-				"reference": "86e5f5dd9a840c46810ebe5ff1885581c42a3017",
+				"url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/62d32998e820bddc40f99f8251958aed187a5c9c",
+				"reference": "62d32998e820bddc40f99f8251958aed187a5c9c",
 				"shasum": ""
 			},
 			"require": {
@@ -1714,7 +1755,7 @@
 					"type": "open_collective"
 				}
 			],
-			"time": "2024-07-21T23:26:44+00:00"
+			"time": "2024-09-18T10:38:58+00:00"
 		},
 		{
 			"name": "symfony/console",
@@ -4308,16 +4349,16 @@
 		},
 		{
 			"name": "wp-cli/wp-config-transformer",
-			"version": "v1.3.6",
+			"version": "v1.4.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/wp-cli/wp-config-transformer.git",
-				"reference": "88f516f44dce1660fc4b780da513e3ca12d7d24f"
+				"reference": "9b470f6f1a75707b22e9cfb85bb74120256243b4"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/wp-cli/wp-config-transformer/zipball/88f516f44dce1660fc4b780da513e3ca12d7d24f",
-				"reference": "88f516f44dce1660fc4b780da513e3ca12d7d24f",
+				"url": "https://api.github.com/repos/wp-cli/wp-config-transformer/zipball/9b470f6f1a75707b22e9cfb85bb74120256243b4",
+				"reference": "9b470f6f1a75707b22e9cfb85bb74120256243b4",
 				"shasum": ""
 			},
 			"require": {
@@ -4346,14 +4387,16 @@
 			"homepage": "https://github.com/wp-cli/wp-config-transformer",
 			"support": {
 				"issues": "https://github.com/wp-cli/wp-config-transformer/issues",
-				"source": "https://github.com/wp-cli/wp-config-transformer/tree/v1.3.6"
+				"source": "https://github.com/wp-cli/wp-config-transformer/tree/v1.4.0"
 			},
-			"time": "2024-05-23T06:32:14+00:00"
+			"time": "2024-09-17T19:05:47+00:00"
 		}
 	],
 	"aliases": [],
 	"minimum-stability": "stable",
-	"stability-flags": [],
+	"stability-flags": {
+		"pronamic/changelog-md-to-wordpress-plugin-readme-txt": 20
+	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
