@@ -4,7 +4,7 @@ Tags: pronamic, salesfeed, tracking, google, analytics
 Donate link: http://pronamic.eu/donate/?for=wp-plugin-salesfeed&source=wp-plugin-readme-txt
 Requires at least: 3.0
 Tested up to: 6.7
-Stable tag: 1.3.4
+Stable tag: 1.3.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,10 @@ WordPress installation and then activate the Plugin from Plugins page.
 == Changelog ==
 
 <!-- Start changelog -->
+
+### [1.3.5] - 2024-11-21
+
+- No significant changes.
 
 ### [1.3.4] - 2024-11-21
 
