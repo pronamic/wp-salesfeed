@@ -7,10 +7,6 @@ on:
         description: 'Tag to deploy to Pronamic WordPress directory'
         required: true
         type: string
-      latest:
-        default: true
-        type: boolean
-        description: 'Deploy as "Latest"'
   release:
     types: [released]
 
@@ -33,4 +29,3 @@ jobs:
           password: ${{ secrets.WP_PRONAMIC_DIRECTORY_PASSWORD }}
           slug: salesfeed
           tag: ${{ inputs.tag || github.event.release.tag_name }}
-          latest: ${{ inputs.latest }}
