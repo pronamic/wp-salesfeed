@@ -4,7 +4,7 @@
  * Plugin URI: https://www.pronamic.eu/plugins/salesfeed/
  * Description: Add a SalesFeed tracking code to your WordPress site. You need a SalesFeed account.
  *
- * Version: 1.3.3
+ * Version: 1.3.4
  * Requires at least: 3.0
  *
  * Author: Pronamic

@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- Start changelog -->
 
+## [1.3.4] - 2024-11-21
+
+- No significant changes.
+
 ## [1.3.3] - 2024-09-05
 
 - No significant changes.
