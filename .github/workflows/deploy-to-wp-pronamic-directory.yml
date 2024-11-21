@@ -35,4 +35,3 @@ jobs:
           password: ${{ secrets.WP_PRONAMIC_DIRECTORY_PASSWORD }}
           slug: salesfeed
           tag: ${{ inputs.tag || github.event.release.tag_name }}
-          latest: ${{ inputs.latest || github.event.release.latest }}
