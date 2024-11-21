@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Deploy
         uses: pronamic/action-wp-pronamic-directory-plugin-deploy@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           username: ${{ vars.WP_PRONAMIC_DIRECTORY_USERNAME }}
           password: ${{ secrets.WP_PRONAMIC_DIRECTORY_PASSWORD }}
