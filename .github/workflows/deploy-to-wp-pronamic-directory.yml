@@ -5,7 +5,6 @@ on:
     inputs:
       tag:
         description: 'Tag to deploy to Pronamic WordPress directory'
-        required: true
         type: string
   release:
     types: [released]
