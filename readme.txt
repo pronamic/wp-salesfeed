@@ -1,5 +1,5 @@
 === SalesFeed ===
-Contributors: pronamic, remcotolsma 
+Contributors: pronamic, remcotolsma
 Tags: pronamic, salesfeed, tracking, google, analytics
 Donate link: http://pronamic.eu/donate/?for=wp-plugin-salesfeed&source=wp-plugin-readme-txt
 Requires at least: 3.0
@@ -19,7 +19,7 @@ A very easy WordPress plugin wich adds a [SalesFeed](http://salesfeed.nl/) track
 
 == Installation ==
 
-Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your 
+Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your
 WordPress installation and then activate the Plugin from Plugins page.
 
 
